@@ -1,6 +1,6 @@
 # AI API Integration Assignment
 
-## 📌 Project Description
+## Project Description
 This project demonstrates how to integrate multiple Generative AI APIs using Python.  
 Each API is implemented in a separate Python file, allowing users to input prompts and receive AI-generated responses.
 
@@ -85,7 +85,7 @@ COHERE_API_KEY=your_key_here
 
 ---
 
-## ▶️ How to Run Each Program
+## How to Run Each Program
 
 Run any Python file using:
 
@@ -110,7 +110,7 @@ Then:
 
 ---
 
-## 📸 Screenshots of Working Programs
+## Screenshots of Working Programs
 
 Screenshots are available in the `screenshots/` folder.
 
@@ -118,38 +118,39 @@ outputs included for:
 
 * Groq API
 ![Groq Output](screenshots/groq_output.png)
+
+
 * Gemini API
 ![Gemini Output](screenshots/gemini_output.png)
+
+
 * Cohere API
 ![Cohere Output](screenshots/cohere_output.png)
+
+
 * HuggingFace API
 ![HuggingFace Output](screenshots/huggingface_output.png)
+
+
 * Ollama API
-![Ollama Output](screenshots/ollama_output.png)
+![Ollama Output](screenshots/ollama_ouput.png)
+
+
 * OpenAI API
 ![OpenAI Output](screenshots/openai_output.png)
+
+
 * Multi API Query
 ![Multi API Query Output](screenshots/multi_api_query_output.png)
 
 Note:
-
 * OpenAI may not run due to quota limitations
 
 ---
 
-##  Important Notes
+## Author
 
-* API keys are stored using environment variables
-* API keys are NOT hardcoded in the code
-* Error handling is implemented in all programs
-* OpenAI API may have limitations due to free-tier restrictions
-
----
-
-## 👤 Author
-
-**Name:** Anjali
-**Course:** Generative AI
-**Institution:** CampusPe
+- **Name:** Anjali
+- **Course:** Generative AI
 
 ---
