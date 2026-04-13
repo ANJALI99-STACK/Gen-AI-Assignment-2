@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chat UI</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+<!-- Sidebar -->
+<aside class="sidebar" id="sidebar">
+    <button class="new-chat">+ New Chat</button>
+    <div class="history">
+        <p>Chat 1</p>
+        <p>Chat 2</p>
+    </div>
+</aside>
+
+<!-- Overlay -->
+<div class="overlay" id="overlay"></div>
+
+<!-- Main -->
+<main class="chat-container">
+
+<!-- Navbar -->
+<header class="topbar">
+    <i class="fas fa-bars menu-btn" id="menuBtn"></i>
+    <h5>Chat UI</h5>
+</header>
+
+<!-- Welcome -->
+<section class="welcome" id="welcome">
+    <h1>How can I help you?</h1>
+
+    <div class="cards">
+        <div class="card">💡 Ideas</div>
+        <div class="card">💻 Coding</div>
+        <div class="card">📚 Study</div>
+        <div class="card">❓ Questions</div>
+    </div>
+</section>
+
+<!-- Messages -->
+<div class="messages" id="messages"></div>
+
+<!-- Typing -->
+<div class="typing" id="typing">
+    <span></span><span></span><span></span>
+</div>
+
+<!-- Input -->
+<div class="input-area">
+    <textarea id="input" rows="1" placeholder="Message..."></textarea>
+    <button id="sendBtn" disabled><i class="fas fa-paper-plane"></i></button>
+</div>
+
+</main>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="js/chat.js"></script>
+
+</body>
+</html>
