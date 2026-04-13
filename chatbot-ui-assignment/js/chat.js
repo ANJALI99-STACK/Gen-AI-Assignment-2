@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 const responses = [
     "That’s interesting!",
-    "Tell me more 👀",
+    "Tell me more",
     "I can help with that!",
     "Nice question!",
     "Let’s explore that."
